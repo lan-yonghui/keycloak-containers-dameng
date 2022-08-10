@@ -1,4 +1,4 @@
-FROM jboss/base-jdk:8
+FROM registry.fit2cloud.com/east/jboss/base-jdk:arm64-jdk8
 
 ENV KEYCLOAK_VERSION 7.0.0
 ENV JDBC_POSTGRES_VERSION 42.2.5
